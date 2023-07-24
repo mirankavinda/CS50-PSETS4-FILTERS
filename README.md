@@ -1,6 +1,6 @@
 # CS50 PSET4 - Image Filters
 
-This repository contains the solutions to the CS50 Problem Set 4 - Image Filters. In this problem set, we implement various image filters to manipulate and process images using C. The goal is to gain a deeper understanding of image processing concepts and practice working with image files.
+This repository contains the solutions to the CS50 Problem Set 4 - Image Filters. It includes C implementations of four image filters: Grayscale, Sepia, Blur, and Reflection. The filters are designed to manipulate and process BMP images, providing various visual effects.
 
 ## Problem Set Description
 
@@ -32,54 +32,76 @@ These functions are used in the main `filter.c` program to process the input BMP
 
 ## Getting Started
 
-1. Clone the repository to your local machine using the following command:
+To get started with the image filters, you need to clone this repository to your local machine. Follow these steps:
 
-- `https://github.com/mirankavinda/CS50-PSETS4-FILTERS.git`
+1. Open your terminal or command prompt.
 
-2. [Additional setup instructions if required for the specific programming language or environment.]
+2. Change the current working directory to the location where you want to store the repository.
 
-## Implementation
+3. Run the following command to clone the repository:
 
-The filters are implemented in C, and each filter can be found in the `helpers.c` file.
+-`git clone https://github.com/mirankavinda/CS50-PSETS4-FILTERS.git`
+
+4. Once the cloning process is complete, navigate into the repository:
+
+-`cd CS50-PSETS4-FILTERS`
+
+## Compilation
+
+Before you can use the image filters, you need to compile the C source code. To do this, run the following command:
+
+-`make filters`
 
 ## Usage
 
-To use the image filters, follow the steps below:
+To use the image filters, you can run the `filter` program with the specified input image and the desired filter. Here's the command format:
 
-1. Compile the source code using the provided Makefile (if available) or compile the `filter.c` and `helpers.c` files together.
-
-2. Run the program with the specified input image and the desired filter. For example:
-
-- `./filter [flag] infile outfile`
-
+-`./filter [flag] infile OUTFILE`
 
 Replace `[flag]` with one of the following options: `b` (blur), `g` (grayscale), `r` (reflection), or `s` (sepia). `infile` should be the path to the input BMP image, and `outfile` should be the path to the output BMP file.
 
 ## Examples
 
-Here are some examples of input images:
+Here are some examples of running the image filters:
 
-### Example 1 - Grayscale Filter
+1. To apply the grayscale filter to the `courtyard.bmp` image and save the result as `output.bmp`, run the following command:
 
-#### Input Image:
-![Courtyard](images/courtyard.bmp)
+-`$ ./filter -g images/yard.bmp out.bmp`
 
-### Example 2 - Sepia Filter
+2. To apply the sepia filter to the `stadium.bmp` image and save the result as `output.bmp`, run the following command:
 
-#### Input Image:
-![Stadium](images/stadium.bmp)
+-`$ ./filter -g images/stadium.bmp out.bmp`
 
-### Example 3 - Blur Filter
+3. To apply the blur filter to the `tower.bmp` image and save the result as `output.bmp`, run the following command:
 
-#### Input Image:
-![Tower](images/tower.bmp)
+-`$ ./filter -g images/tower.bmp out.bmp`
 
-### Example 4 - Reflection Filter
+4. To apply the reflection filter to the `yard.bmp` image and save the result as `output.bmp`, run the following command:
 
-#### Input Image:
-![Yard](images/yard.bmp)
+-`$ ./filter -g images/yard.bmp out.bmp`
 
+Feel free to explore and experiment with different input images and filters!
 
 ## Credits
 
 The problem set and starter code were provided by CS50, Harvard University. The implementation of the filters is done by Miran.
+
+---
+Note: Make sure to replace `mirankavinda` with your GitHub username in the repository URL.
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
