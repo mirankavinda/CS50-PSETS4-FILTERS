@@ -61,12 +61,4 @@ Replace `[flag]` with one of the following options: `b` (blur), `g` (grayscale),
 
 ## Credits
 
-The problem set and starter code were provided by CS50, Harvard University. The implementation of the filters is done by [Your Name].
-
-## License
-
-[Indicate the license you want to use for your code, e.g., MIT License, GNU General Public License, etc.]
-
-## Acknowledgments
-
-[If you received help or referenced any external resources, acknowledge them here.]
+The problem set and starter code were provided by CS50, Harvard University. The implementation of the filters is done by [Miran].
