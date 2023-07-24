@@ -34,7 +34,7 @@ These functions are used in the main `filter.c` program to process the input BMP
 
 1. Clone the repository to your local machine using the following command:
 
-https://github.com/mirankavinda/CS50-PSETS4-FILTERS.git
+- `https://github.com/mirankavinda/CS50-PSETS4-FILTERS.git`
 
 2. [Additional setup instructions if required for the specific programming language or environment.]
 
@@ -50,7 +50,7 @@ To use the image filters, follow the steps below:
 
 2. Run the program with the specified input image and the desired filter. For example:
 
-./filter [flag] infile outfile
+- `./filter [flag] infile outfile`
 
 
 Replace `[flag]` with one of the following options: `b` (blur), `g` (grayscale), `r` (reflection), or `s` (sepia). `infile` should be the path to the input BMP image, and `outfile` should be the path to the output BMP file.
@@ -61,4 +61,4 @@ Replace `[flag]` with one of the following options: `b` (blur), `g` (grayscale),
 
 ## Credits
 
-The problem set and starter code were provided by CS50, Harvard University. The implementation of the filters is done by [Miran].
+The problem set and starter code were provided by CS50, Harvard University. The implementation of the filters is done by Miran.
