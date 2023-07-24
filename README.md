@@ -57,39 +57,28 @@ Replace `[flag]` with one of the following options: `b` (blur), `g` (grayscale),
 
 ## Examples
 
-Here are some examples of input images and their corresponding filtered outputs:
+Here are some examples of input images:
 
 ### Example 1 - Grayscale Filter
 
 #### Input Image:
 ![Courtyard](images/courtyard.bmp)
 
-#### Filtered Output:
-![Grayscale Courtyard](images/grayscale_courtyard.bmp)
-
 ### Example 2 - Sepia Filter
 
 #### Input Image:
 ![Stadium](images/stadium.bmp)
-
-#### Filtered Output:
-![Sepia Stadium](images/sepia_stadium.bmp)
 
 ### Example 3 - Blur Filter
 
 #### Input Image:
 ![Tower](images/tower.bmp)
 
-#### Filtered Output:
-![Blur Tower](images/blur_tower.bmp)
-
 ### Example 4 - Reflection Filter
 
 #### Input Image:
 ![Yard](images/yard.bmp)
 
-#### Filtered Output:
-![Reflection Yard](images/reflection_yard.bmp)
 
 ## Credits
 
