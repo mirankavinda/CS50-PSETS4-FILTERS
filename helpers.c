@@ -84,7 +84,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             // Neighboring pixels value
             for (int x = -1; x < 2; x++)
             {
-                for (int y = -1; y < 3; y++)
+                for (int y = -1; y < 2; y++)
                 {
                     int currentX = i + x;
                     int currentY = j + y;
